@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Create: Kaan Raif on 4/11/2017
+// Created by Kaan Raif on 4/11/2017
 //
 // Purpose: Set up a clock that reads in from RTC , then displays to LCD
 // Need to create way that APP interfaces with the controller and modifies clock
