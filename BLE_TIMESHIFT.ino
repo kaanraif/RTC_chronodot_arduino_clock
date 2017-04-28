@@ -1,9 +1,11 @@
 //--------------------------------------------------------------------------------------------------------------------------
 // Created by Kaan Raif 4/24/217
 // 
-// Purpose: Create BLE app that reads in time of phone and modifies it 
-// Displays messages and time through LCD Screen
-// 
+// Purpose: Create BLE connection to Arduino (Uno) and allow communication between serial and BLE.serial
+//  Outputs serial => LCD screen
+//
+//  End Goal: Obtain time from phone and send to arduino => modify time of RTC clock => display to LCD screen and return to phone
+//
 // Revisions:None
 //
 // Wiring:
