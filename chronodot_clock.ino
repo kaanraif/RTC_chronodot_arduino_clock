@@ -85,12 +85,14 @@ void loop()
     
     
     //display to lcd screen
-    //lcd.print("Time:");
-    //lcd.print(hours);
-    //lcd.print(":"); 
-    //lcd.print(minutes); 
-    //lcd.print(":"); 
-    //lcd.print(seconds);
+    lcd.clear();
+    lcd.setCursor(0,1);
+    lcd.print("Time:");
+    lcd.print(hours);
+    lcd.print(":"); 
+    lcd.print(minutes); 
+    lcd.print(":"); 
+    lcd.print(seconds);
   }
  
   delay(1000);
